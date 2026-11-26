@@ -3,14 +3,7 @@
   "mcpServers": {
     "legalmike": {
       "type": "streamable-http",
-      "url": "https://mcp.legalmike.ai/mcp",
-      "extensions": {
-        "com.openai": {
-          "auth": {
-            "type": "oauth"
-          }
-        }
-      }
+      "url": "https://mcp.legalmike.ai/mcp"
     }
   }
 }

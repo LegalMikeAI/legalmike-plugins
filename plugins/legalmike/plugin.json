@@ -20,5 +20,98 @@
     "rechtspraak",
     "wetgeving"
   ],
-  "license": "PROPRIETARY"
+  "license": "PROPRIETARY",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "LegalMike",
+        "shortDescription": "Dutch and EU legal research",
+        "longDescription": "LegalMike researches Dutch and EU law from primary sources: case law, legislation, disciplinary law, local regulations, EU law, ECHR case law, dispute committees, parliamentary papers and legal literature. Every ruling and article in an answer carries a working link to the source, so a lawyer can open it, verify it and rely on it.\n\nAsk a legal question and get a structured answer with its sources; read the passages behind an answer; or open the full text of a statute article, a ruling or an EU act. Answers are in Dutch by default and in English on request; quoted statutory and judicial text stays in Dutch.\n\nLegalMike provides legal research, not legal advice: answers are a starting point for review by a qualified lawyer. A LegalMike account is required.",
+        "developerName": "LegalMike",
+        "category": "Productivity",
+        "capabilities": [
+          "Answer questions on Dutch and EU law with linked sources",
+          "Search case law, legislation and other Dutch and EU legal sources",
+          "Open the full text of a statute article, ruling or EU act"
+        ],
+        "websiteURL": "https://legalmike.ai",
+        "supportURL": "https://legalmike.ai/support/",
+        "privacyPolicyURL": "https://legalmike.ai/privacyverklaring/",
+        "termsOfServiceURL": "https://legalmike.ai/gebruiksvoorwaarden/",
+        "defaultPrompt": [
+          "Wanneer verjaart een vordering tot schadevergoeding uit onrechtmatige daad?",
+          "Welke opzegtermijn geldt voor een huurovereenkomst van een woning?",
+          "Toon de tekst van artikel 6:162 BW."
+        ],
+        "brandColor": "#282959",
+        "composerIcon": "./assets/logo.png",
+        "logo": "./assets/logo.png"
+      },
+      "review": {
+        "test_cases": {
+          "positive": [
+            {
+              "description": "Answer a civil-law question with linked statute and case law",
+              "prompt": "Wanneer verjaart een vordering tot schadevergoeding uit onrechtmatige daad?",
+              "tools_triggered": "legalmike_reason",
+              "expected_behavior": "A Dutch answer explaining the five-year relative and twenty-year absolute limitation periods of article 3:310 BW, with a working wetten.overheid.nl link to the article and links to Hoge Raad rulings on uitspraken.rechtspraak.nl."
+            },
+            {
+              "description": "Answer from the perspective of the party the user acts for",
+              "prompt": "Ik sta een werkgever bij. Mag die een werknemer ontslaan die al meer dan twee jaar ziek is?",
+              "tools_triggered": "legalmike_reason",
+              "expected_behavior": "A Dutch answer written for the employer's side, explaining the dismissal prohibition during illness and its two-year exception under article 7:670 BW, with links to the article and relevant rulings."
+            },
+            {
+              "description": "Open the full text of one statute article",
+              "prompt": "Toon de tekst van artikel 6:162 BW.",
+              "tools_triggered": "legalmike_document",
+              "expected_behavior": "The full text of article 6:162 BW (onrechtmatige daad), with a link to wetten.overheid.nl and LegalMike's commentary on the article when one is available."
+            },
+            {
+              "description": "Return source passages without a written answer",
+              "prompt": "Find the passages in Dutch case law on the Haviltex standard for interpreting contracts.",
+              "tools_triggered": "legalmike_search",
+              "expected_behavior": "Passages from Dutch rulings on contract interpretation, including the Haviltex ruling ECLI:NL:HR:1981:AG4158, each with its ECLI and a link to the ruling."
+            },
+            {
+              "description": "Answer an EU-law question in English",
+              "prompt": "Under the GDPR, what are the legal bases for processing personal data? Answer in English.",
+              "tools_triggered": "legalmike_reason",
+              "expected_behavior": "An English analysis of the legal bases in article 6 GDPR (Regulation (EU) 2016/679, CELEX 32016R0679) with a link to EUR-Lex; quoted legal text may remain in Dutch."
+            }
+          ],
+          "negative": [
+            {
+              "description": "A request with no legal content",
+              "prompt": "Write a short poem about the sea."
+            },
+            {
+              "description": "General knowledge outside Dutch and EU law",
+              "prompt": "What is the capital of Australia?"
+            },
+            {
+              "description": "An action LegalMike cannot take: it only reads public legal sources and cannot file documents or contact authorities",
+              "prompt": "Dien namens mij een bezwaarschrift in bij de gemeente Utrecht."
+            }
+          ]
+        },
+        "commerce": false,
+        "commerce_description": "LegalMike does not sell products or process payments in ChatGPT."
+      },
+      "publication": {
+        "countries": [
+          "NL",
+          "BE"
+        ],
+        "release_notes": "First release: legal research in Dutch and EU law with a linked source for every citation, source passages, and the full text of statutes, rulings and EU acts.",
+        "translations": {
+          "nl-NL": {
+            "subtitle": "Nederlands en Europees recht",
+            "description": "LegalMike doorzoekt de primaire bronnen van het Nederlandse en Europese recht: rechtspraak, wetgeving, tuchtrecht, lokale regelgeving, EU-recht, EHRM-rechtspraak, geschillencommissies, parlementaire stukken en juridische literatuur. Elke uitspraak en elk artikel in een antwoord heeft een werkende link naar de bron, zodat een jurist die kan openen, controleren en erop kan bouwen.\n\nStel een juridische vraag en krijg een gestructureerd antwoord met bronnen; lees de passages achter een antwoord; of open de volledige tekst van een wetsartikel, een uitspraak of een EU-handeling.\n\nLegalMike levert juridisch onderzoek, geen juridisch advies: een antwoord is een vertrekpunt voor beoordeling door een jurist. Een LegalMike-account is nodig."
+          }
+        }
+      }
+    }
+  }
 }
