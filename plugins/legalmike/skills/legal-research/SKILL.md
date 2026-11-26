@@ -61,7 +61,7 @@ jurist een standpunt verantwoorden: de uitspraak of het artikel is te openen.
 - **Een bron die niet bereikbaar was,** noemt het antwoord in één zin. Die zin
   hoort erbij: een antwoord zonder rechtspraak is iets anders dan een antwoord
   waarin de rechtspraak is gewogen.
-- **Taal.** Het antwoord is Nederlands. Met `language` op `en` komt het in het
+- **Taal.** Het antwoord is Nederlands. Met `language: "en"` komt het in het
   Engels; juridische begrippen en geciteerde wetstekst blijven Nederlands.
 
 ## Foutcodes
