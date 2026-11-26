@@ -20,5 +20,9 @@
     "wetgeving"
   ],
   "license": "PROPRIETARY",
-  "privacyPolicyUrl": "https://legalmike.ai/privacyverklaring/"
+  "privacyPolicyUrl": "https://legalmike.ai/privacyverklaring/",
+  "displayName": "LegalMike",
+  "supportUrl": "https://legalmike.ai/support/",
+  "documentationUrl": "https://github.com/LegalMikeAI/legalmike-plugins#readme",
+  "termsOfServiceUrl": "https://legalmike.ai/gebruiksvoorwaarden/"
 }
