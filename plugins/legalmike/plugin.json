@@ -25,7 +25,7 @@
     "com.openai": {
       "interface": {
         "displayName": "LegalMike",
-        "shortDescription": "Dutch and EU legal research",
+        "shortDescription": "Dutch & EU law, linked sources",
         "longDescription": "LegalMike researches Dutch and EU law from primary sources: case law, legislation, disciplinary law, local regulations, EU law, ECHR case law, dispute committees, parliamentary papers and legal literature. Every ruling and article in an answer carries a working link to the source, so a lawyer can open it, verify it and rely on it.\n\nAsk a legal question and get a structured answer with its sources; read the passages behind an answer; or open the full text of a statute article, a ruling or an EU act. Answers are in Dutch by default and in English on request; quoted statutory and judicial text stays in Dutch.\n\nLegalMike provides legal research, not legal advice: answers are a starting point for review by a qualified lawyer. A LegalMike account is required.",
         "developerName": "LegalMike",
         "category": "Productivity",
@@ -107,7 +107,7 @@
         "release_notes": "First release: legal research in Dutch and EU law with a linked source for every citation, source passages, and the full text of statutes, rulings and EU acts.",
         "translations": {
           "nl-NL": {
-            "subtitle": "Nederlands en Europees recht",
+            "subtitle": "NL- en EU-recht met bronlinks",
             "description": "LegalMike doorzoekt de primaire bronnen van het Nederlandse en Europese recht: rechtspraak, wetgeving, tuchtrecht, lokale regelgeving, EU-recht, EHRM-rechtspraak, geschillencommissies, parlementaire stukken en juridische literatuur. Elke uitspraak en elk artikel in een antwoord heeft een werkende link naar de bron, zodat een jurist die kan openen, controleren en erop kan bouwen.\n\nStel een juridische vraag en krijg een gestructureerd antwoord met bronnen; lees de passages achter een antwoord; of open de volledige tekst van een wetsartikel, een uitspraak of een EU-handeling.\n\nLegalMike levert juridisch onderzoek, geen juridisch advies: een antwoord is een vertrekpunt voor beoordeling door een jurist. Een LegalMike-account is nodig."
           }
         }
