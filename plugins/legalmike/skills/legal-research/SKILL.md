@@ -2,7 +2,7 @@
 name: legal-research
 description: >
   Research a question of Dutch or EU law with LegalMike and present the answer
-  with a working link to every ruling and article. Use when someone asks about
+  with every ruling and article linked to its official source. Use when someone asks about
   Dutch or EU law and the sources matter: case law and ECLIs, statutes,
   disciplinary law, local regulations, EU law, the ECHR, dispute committees,
   parliamentary papers or legal literature; or asks to find a ruling or

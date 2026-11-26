@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "legalmike",
   "version": "0.1.0",
-  "description": "Research Dutch and EU law from primary sources, with a working link to every ruling and statute cited.",
+  "description": "Legal research on Dutch and EU law. Every answer cites the rulings and statutes it rests on, linked to the official source.",
   "author": {
     "name": "LegalMike",
     "email": "info@legalmike.ai",

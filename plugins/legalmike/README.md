@@ -1,7 +1,7 @@
 # LegalMike plugin
 
-Research Dutch and EU law from primary sources in Claude or ChatGPT, with a
-working link to every ruling and statute cited.
+Legal research on Dutch and EU law in Claude or ChatGPT. Every answer cites
+the rulings and statutes it rests on, linked to the official source.
 
 The plugin connects to the LegalMike service at `https://mcp.legalmike.ai/mcp`
 (sign-in with a LegalMike account) and adds two skills: `legal-research`, which
