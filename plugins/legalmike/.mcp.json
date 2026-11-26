@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "legalmike": {
+      "type": "http",
+      "url": "https://mcp.legalmike.ai/mcp"
+    }
+  }
+}

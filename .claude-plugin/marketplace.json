@@ -1,0 +1,16 @@
+{
+  "name": "legalmike",
+  "owner": {
+    "name": "LegalMike",
+    "email": "info@legalmike.ai",
+    "url": "https://legalmike.ai"
+  },
+  "description": "LegalMike for Claude: Dutch and EU legal research from primary sources.",
+  "plugins": [
+    {
+      "name": "legalmike",
+      "source": "./plugins/legalmike",
+      "description": "Research Dutch and EU law from primary sources, with a working link to every ruling and statute cited."
+    }
+  ]
+}
