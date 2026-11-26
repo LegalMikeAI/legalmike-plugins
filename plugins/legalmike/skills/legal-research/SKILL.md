@@ -51,8 +51,8 @@ jurist een standpunt verantwoorden: de uitspraak of het artikel is te openen.
   het eerst, dus het werkt het best volledig weergegeven.
 - **Elke link blijft bij zijn verwijzing,** ook als dezelfde bron verderop
   terugkomt. `art. 7:669 BW` zonder link, waar het antwoord
-  `[artikel 7:669 BW](https://wetten.overheid.nl/...)` gaf, leest nog als
-  bronvermelding maar opent niets.
+  `[artikel 7:669 BW](…)` met een link gaf, leest nog als bronvermelding maar
+  opent niets.
 - **Wie zelf een uitspraak of artikel noemt,** vindt de link in
   `ecli_citations` of `non_ecli_citations` in het resultaat.
 - **Wat niet uit het resultaat komt, heeft geen gecontroleerde vindplaats.**
