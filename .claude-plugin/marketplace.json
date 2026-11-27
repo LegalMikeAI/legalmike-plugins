@@ -5,7 +5,7 @@
     "email": "info@legalmike.ai",
     "url": "https://legalmike.ai"
   },
-  "description": "LegalMike for Claude: Dutch and EU legal research from primary sources.",
+  "description": "Make your case. LegalMike for Claude: Dutch and EU legal research from primary sources.",
   "plugins": [
     {
       "name": "legalmike",
