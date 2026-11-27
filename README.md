@@ -1,6 +1,6 @@
 # LegalMike for Claude and ChatGPT
 
-**Make your case.** Go from a legal question to advice.
+**Make your case.** Go from any legal question to advice.
 
 [LegalMike](https://legalmike.ai) researches Dutch and EU law from primary
 sources: case law, legislation, disciplinary law, local regulations, EU law,
