@@ -1,7 +1,6 @@
 # LegalMike plugin
 
-Make your case. Go from any legal question to advice, a memo or a brief, in
-Claude or ChatGPT.
+Make your case. Go from a legal question to advice, in Claude or ChatGPT.
 
 The plugin connects to the LegalMike service at `https://mcp.legalmike.ai/mcp`
 (sign-in with a LegalMike account) and adds two skills: `legal-research`, which
