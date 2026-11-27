@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "legalmike",
   "version": "0.1.0",
-  "description": "Make your case. Go from a legal question to advice, a memo or a brief, with the Dutch and EU rulings and statutes to back it.",
+  "description": "Make your case. Go from any legal question to advice, a memo or a brief.",
   "author": {
     "name": "LegalMike",
     "email": "info@legalmike.ai",
@@ -26,7 +26,7 @@
       "interface": {
         "displayName": "LegalMike",
         "shortDescription": "Make your case. Dutch & EU law",
-        "longDescription": "Make your case. Go from a legal question to advice, a memo or a brief.\n\nLegalMike answers questions of Dutch and EU law from the primary sources, and links every ruling and article it relies on, so a lawyer can open the source, verify it and use it.\n\nAsk a question and LegalMike researches it across seventeen sources at once:\n- Dutch case law, with landmark rulings recognised by name (Haviltex, Lindenbaum/Cohen)\n- Dutch legislation, article by article, and local regulations of municipalities, provinces and water boards\n- Disciplinary law and dispute resolution: tuchtrecht, Kifid, De Geschillencommissie, Huurcommissie and more\n- EU legislation and CJEU case law from EUR-Lex, and ECHR case law\n- Parliamentary papers and legal literature\n\nWhat you get:\n- A written answer with every citation checked against the retrieved sources: a code that is not in the sources is removed, never invented.\n- The source passages behind a question, when you want to read them yourself.\n- The full text of one statute article, with LegalMike's commentary where available, or of one ruling or EU act.\n\nAnswers are in Dutch by default and in English on request; quoted statutory and judicial text stays in Dutch.\n\nLegalMike is read-only: it never changes anything at the sources or in your account. It provides legal research from public sources, not legal advice. A LegalMike account is required.",
+        "longDescription": "Make your case. Go from any legal question to advice, a memo or a brief.\n\nLegalMike answers questions of Dutch and EU law from the primary sources, and links every ruling and article it relies on, so a lawyer can open the source, verify it and use it.\n\nAsk a question and LegalMike researches it across seventeen sources at once:\n- Dutch case law, with landmark rulings recognised by name (Haviltex, Lindenbaum/Cohen)\n- Dutch legislation, article by article, and local regulations of municipalities, provinces and water boards\n- Disciplinary law and dispute resolution: tuchtrecht, Kifid, De Geschillencommissie, Huurcommissie and more\n- EU legislation and CJEU case law from EUR-Lex, and ECHR case law\n- Parliamentary papers and legal literature\n\nWhat you get:\n- A written answer with every citation checked against the retrieved sources: a code that is not in the sources is removed, never invented.\n- The source passages behind a question, when you want to read them yourself.\n- The full text of one statute article, with LegalMike's commentary where available, or of one ruling or EU act.\n\nAnswers are in Dutch by default and in English on request; quoted statutory and judicial text stays in Dutch.\n\nLegalMike is read-only: it never changes anything at the sources or in your account. It provides legal research from public sources, not legal advice. A LegalMike account is required.",
         "developerName": "LegalMike",
         "category": "Productivity",
         "capabilities": [
